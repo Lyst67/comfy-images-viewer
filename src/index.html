@@ -3,11 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comfy-images-viewer</title>
+    <title>Comfy-image-viewer</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <include src="./partials/example.html"></include>
+    <header class="header">
+      <div class="header-container container">
+        <p class="page">page:</p>
+        <p class="page-count"></p>
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button type="submit">Search</button>
+        </form>
+        <select class="lang-select">
+          <option value="eng">en</option>
+          <option value="ukr">ua</option>
+        </select>
+      </div>
+    </header>
+    <section class="gallery-section">
+      <div class="container">
+        <ul class="gallery js-gallery"></ul>
+      </div>
+    </section>
+    <script type="module" src="/src/index.js"></script>
   </body>
 </html>
