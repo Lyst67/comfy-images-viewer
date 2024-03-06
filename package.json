@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "comfy-images-viewer",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://lyst67.github.io/comfy-images-viewer/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /comfy-images-viewer/"
   },
   "repository": {
     "type": "git",
